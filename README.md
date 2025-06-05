@@ -36,3 +36,12 @@ A Python-based Monte Carlo simulation to model trade outcomes across various mar
 ### Requirements
 Install dependencies:
 pip install numpy matplotlib pandas
+
+you can change the parameters as well to test through multiple trades:
+starting_balance = 1000
+risk_per_trade = 1
+reward_to_risk = 2.0
+base_win_rate = 0.55
+trades_in_one_game = 100
+number_of_games = 500
+
